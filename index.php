@@ -1,19 +1,19 @@
 <!DOCTYPE HTML>
 <html>
-<body bgcolor="#E6E6FA">
-<h1> Welcome to COSC4806</h1>
-<p><a href="designed by Saud"></a></p>
-</body>
+    <body bgcolor="#3399FF">
+        <h1> Welcome to COSC4806</h1>
+        <p><a href="designed by Saud"></a></p>
+    </body>
 </html>
 <?php
 // Start the session
-session_start();
-
-// Defines username and password. Retrieve however you like,
+ob_start();
+//session_start();
+//Defines username and password.
 $username = "user";
 $password = "password";
 
-// Error message
+//Error message
 $error = "";
 
 // Checks to see if the user is already logged in. If so, refirect to correct page.
@@ -54,3 +54,4 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
         </form>
     </body>
 </html>
+

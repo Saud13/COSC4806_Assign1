@@ -1,12 +1,15 @@
+<body bgcolor="#a6ff4d">
 <?php
 // Start the session
-//ob_start();
-//session_start();
+ob_start();
+session_start();
 
-// Check to see if actually logged in. If not, redirect to login page
+// Check to see if logged in. If not, redirect to login page
 if (!isset($_SESSION['loggedIn']) || $_SESSION['loggedIn'] == false) {
     header("Location: index.php");
+ 
 }
+
 ?>
 
 <h1>Logged In!</h1>
