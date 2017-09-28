@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <body bgcolor="#3399FF">
-        <h1> Welcome to COSC4806</h1>
+        <h1> Welcome to COSC4806-Assignment1</h1>
         <p><a href="designed by Saud"></a></p>
     </body>
 </html>
